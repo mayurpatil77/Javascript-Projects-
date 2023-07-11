@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <title>Risk-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- main heading -->
+    <div class="heading">
+        <h1>RiskoMeter : Risk Calculator For Option Trading </h1>
+    </div>
+
+    <!-- body part -->
+    <div class="mainContainer">
+        <!-- left container -->
+        <div class="leftContainer">
+
+            <div class="partOne">
+                <h3>Select Instrument</h3>
+                <select id="selectIndex">
+                    <option value="nifty">Nifty</option>
+                    <option value="banknifty">BankNifty</option>
+                    <option value="finnifty">FinNifty</option>
+                </select>
+
+                <h3> How Many Points T/SL </h3>
+                <input type="number" id="stopLossInput" min="1" placeholder="Target/SL Points">
+
+
+            </div>
+
+            <div class="partTwo">
+                <h3>Enter Lot Size</h3>
+                <Input type="number" id="lotSizeInput" min="1" placeholder="Enter Lot Size No"></Input>
+                <h3>Enter Primium Price</h3>
+                <input type="number" id="premiumPriceInput" min="1" placeholder="Enter the Primium Price">
+
+                <!-- button -->
+                <div class="btn">
+                    <button onclick="getValues()">Calculate Profit & Lost</button>
+                </div>
+            </div> -
+        </div>
+
+        <!-- right container -->
+
+        <div class="rightContainer">
+            <div class="rightSubContainer">
+                <h2 class="resultBoxheading">Primium Increase Or Decrease</h2>
+                <h3>If Premium moves <span id="move10">10</span> Points: <span id="rs10">500</span> RS</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>-
