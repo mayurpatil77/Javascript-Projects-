@@ -18,4 +18,4 @@ RiskoMeter is a static webpage that allows users to calculate the risk of their 
 
 ## Preview
 
-![RiskoMeter Preview](https://github.com/mayurpatil77/Javascript-Projects-/blob/main/Project%2021%20-%20Options%20Risk%20Calculator/RiskoMeter%20.png?raw=true)
+![RiskoMeter Preview](https://github.com/mayurpatil77/Javascript-Projects-/blob/main/Project%2021%20-%20Options%20Risk%20Calculator/RiskoMeter%20%20image.png?raw=true)
