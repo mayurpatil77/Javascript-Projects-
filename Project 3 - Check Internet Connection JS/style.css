@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,100&display=swap');
+
+body{
+    background-color: aquamarine;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px; 
+    height: 80px; 
+    font-size: 30px;
+    font-family: Montserrat;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+  }
+
+  #massage{
+    font-size: 30px;
+  }
+
+
+
+ 
+
+  
