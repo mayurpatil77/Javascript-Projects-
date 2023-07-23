@@ -1,0 +1,94 @@
+/* Importing Fonts & Icons */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+
+/* CSS Resets  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapping And Centering DIV : )  */
+
+.container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1AA4B1;
+    border-radius: 10px;
+}
+
+/* Search Component Styling */
+
+.search {
+    padding: 30px;
+    margin: 10px;
+}
+
+/* Search Input Styling */
+
+#city {
+    width: 300px;
+    padding: 15px 10px;
+    border-radius: 3px;
+    font-family: 'PT Serif', serif;
+    border: none;
+}
+
+/* Search Button Styling  */
+    
+#searchcity {
+    padding: 10px;
+    border: none;
+    
+}
+
+#searchcity:hover {
+    cursor: pointer;
+    background-color: rgb(206, 187, 223);
+    border-radius: 10px; 
+}
+
+/* Fetched Data Style  */
+
+.data{
+    width: 80%;
+    border-radius: 20px;
+    padding: 20px 50px;
+    background-color: white;
+    line-height: 30px;
+}
+
+#WeatherImg{
+    width: 50px;
+    height: 50px
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .container {
+      padding: 30px 10px;
+      width: 80%;
+      height: auto;
+    }
+    #city {
+        width: 200px;
+       
+    }
+  }
+  

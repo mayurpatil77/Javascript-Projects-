@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Wheather App</title>
+</head>
+
+<body>
+
+    <!-- Wrapper Container -->
+
+    <div class="container">
+
+        <!-- Component To Search City -->
+
+        <div class="search">
+            <input id="city" type="text" placeholder="Enter City Name">
+            <button id="searchcity" class="fa fa-search"  type="submit"></button>
+        </div>
+
+        <!-- Showing Fetch Data  -->
+
+        <div class="data">
+
+            <p id="error" style="color: red; font-weight: bold;"></p>
+            <img id="WeatherImg" src="https://cdn-icons-png.flaticon.com/512/460/460292.png" alt="WeatherImg">
+            <p id="cityName">City Name : </p>
+            <p id="localtime">Local Time : </p>
+            <p id="temp_c">Temp_c : </p>
+            <p id="temp_f">temp_f : </p>
+            <p id="conditionText">Condition : </p>
+            <p id="wind_mph">Wind Mph : </p>
+            <p id="wind_kph">Wind Mph : </p>
+            <p id="humidity">Humidity : </p>
+        </div>
+
+        <!-- Fetched Data Completed Here -->
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
