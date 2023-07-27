@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap');
+
+
+/* CSS Resets */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Center Div :)  */
+
+.container{
+    font-family: Alkatra,cursive;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://c1.wallpaperflare.com/preview/95/69/277/literature-wisdom-book-book-bindings.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styling Advice Container */
+
+.adviceContainer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   width: 700px;
+   height: 300px;
+   padding: 40px 10px;
+   border: 1px solid black;
+   margin: 0 auto;
+   background-color: antiquewhite;
+}
+
+/* Advice Paragraph */
+
+#advice{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+/* Advice Button */
+
+#getAdvice{
+  border-radius: 50px;
+  font-family: Alkatra,cursive;
+  padding: 7px 20px;
+}
+#getAdvice:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* Media Queries   */
+
+@media (max-width: 768px) {
+.adviceContainer{
+    width: 90vw;
+    
+}
+#advice{
+    font-size: 20px;
+}
+
+}
