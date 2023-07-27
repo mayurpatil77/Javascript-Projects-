@@ -22,7 +22,7 @@ The project is built using the following technologies:
 
 ## Demo
 
-You can check out the live demo of the Random Advice Generator [here](https://example.com).
+You can check out the live demo of the Random Advice Generator [here](https://get-random-advice-mayur.netlify.app/).
 
 ## How to Use
 
